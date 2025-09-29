@@ -6,7 +6,7 @@ public class Aluno {
 
     String nome;
     String status;
-    int peso;
+    double peso;
     double imc;
     double altura;
 
@@ -18,7 +18,7 @@ public class Aluno {
         nome = leitor.nextLine();
 
         System.out.print("Obrigado! Agora digite seu peso em kilogramas (kg): ");
-        peso = leitor.nextInt();
+        peso = leitor.nextDouble();
 
         System.out.print("Quase lá. Só falta a sua altura! Pode digita-la em metros? ");
         altura = leitor.nextDouble();
