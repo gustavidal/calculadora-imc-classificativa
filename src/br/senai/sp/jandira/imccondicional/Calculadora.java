@@ -6,8 +6,8 @@ public class Calculadora {
     public static void main(String[] args) {
         System.out.println("Iniciando o programa...");
 
-        Aluno classificacao = new Aluno();
+        Aluno status = new Aluno();
 
-        classificacao.obterDados();
+        status.obterDados();
     }
 }
