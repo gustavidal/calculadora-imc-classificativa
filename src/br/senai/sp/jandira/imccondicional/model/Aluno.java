@@ -35,18 +35,18 @@ public class Aluno {
     }
 
     public void classificarCondicao(){
-        if (imc <= 18.50){
+        if (imc < 18.6){
             status = "Abaixo do Peso";
-        } else if (imc <= 24.90){
-            status = "Peso Ideal";
-        } else if (imc <= 29.90){
-            status = "Acima do Peso";
-        } else if (imc <= 34.90){
-            status = "Obesidade";
-        } else if (imc <= 39.90){
-            status = "Obesidade Severa";
+        } else if (imc >= 18.6 && imc < 25.0){
+            status = "Peso Ideal (Parabéns)";
+        } else if (imc >= 25.0 && imc < 30.0){
+            status = "Levemente Acima do Peso";
+        } else if (imc >= 30.0 && imc < 35.0){
+            status = "Obesidade (Grau I)";
+        } else if (imc >= 35.0 && imc < 40.0){
+            status = "Obesidade Severa (Grau II)";
         } else {
-            status = "Obesidade Mórbida";
+            status = "Obesidade Mórbida (Grau III)";
         }
 
         exibirResultados();
