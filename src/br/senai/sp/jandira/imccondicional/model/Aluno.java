@@ -1,5 +1,7 @@
 package br.senai.sp.jandira.imccondicional.model;
 
+import java.util.Scanner;
+
 public class Aluno {
 
     String nome;
@@ -18,7 +20,7 @@ public class Aluno {
         System.out.print("Obrigado! Agora digite seu peso em kilogramas (kg): ");
         peso = leitor.nextInt();
 
-        System.out.print("Quase lá. Só falta a sua altura! Pode digita-la em metros?: ");
+        System.out.print("Quase lá. Só falta a sua altura! Pode digita-la em metros? ");
         altura = leitor.nextDouble();
 
         calcularImc();
