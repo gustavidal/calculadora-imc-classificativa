@@ -56,7 +56,12 @@ public class Aluno {
         String imcDecimal = String.format("%.2f", imc);
 
         System.out.println("-------------------------------------");
+        System.out.println("------ CALCULADORA DE IMC ------");
+        System.out.println("-------------------------------------");
         System.out.println("NOME: " + nome);
+        System.out.println("PESO: " + peso);
+        System.out.println("ALTURA: " + altura);
+        System.out.println("------ RESULTADOS ------");
         System.out.println("IMC: " + imcDecimal);
         System.out.println("STATUS: " + status);
         System.out.println("-------------------------------------");
