@@ -35,15 +35,15 @@ public class Aluno {
     }
 
     public void classificarCondicao(){
-        if (imc <= 18.5){
+        if (imc <= 18.50){
             status = "Abaixo do Peso";
-        } else if (imc <= 24.9){
+        } else if (imc <= 24.90){
             status = "Peso Ideal";
-        } else if (imc <= 29.9){
+        } else if (imc <= 29.90){
             status = "Acima do Peso";
-        } else if (imc <= 34.9){
+        } else if (imc <= 34.90){
             status = "Obesidade";
-        } else if (imc <= 39.9){
+        } else if (imc <= 39.90){
             status = "Obesidade Severa";
         } else {
             status = "Obesidade Mórbida";
